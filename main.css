@@ -1,0 +1,144 @@
+/* 全体設定 */
+a:hover {
+    text-decoration: none;
+}
+
+/* navigation関連 */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 8px 16px;
+    color:white;
+    font-weight: bold;
+}
+
+/* 色関連 */
+.white {
+    color:white;
+}
+.bg-yellow {
+    background-color: #f5bb1c;
+}
+
+/* button関連 */
+.btn-default {
+    color: #333333;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+
+.btn-primary{
+    color:white;
+    background-color: #f5bb1c;
+    border-color: #f5bb1c;
+}
+.btn-primary:hover,.btn-primary:active{
+    background-color: #f7c642;
+    border-color: #f7c642;
+}
+
+
+/* ジャンボトロン関連 */
+.triming {
+    width: 100%;/* トリミングしたい枠の幅 */
+    height: 400px;/* トリミングしたい枠の高さ */
+    object-fit: cover;
+}
+
+.img-container{
+    width:100%;
+    height:400px;
+}
+
+.title-wrapper {
+    position: relative;
+    width:100%;
+    height:400px;
+}
+
+
+/* その他要素関連 */
+.title {
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.place {
+    color: #A9A9A9;
+}
+
+.element{
+    font-weight: bold;
+}
+
+
+/* 曜日関連 */
+.day-table{
+    width: 100%;
+}
+
+.day-col {
+    text-align: center;
+    border: none;
+    width: 13%;
+    margin-bottom: 8px;
+}
+
+.sat{
+    color:#368bcb;
+}
+
+.sun {
+    color:#e64437;
+}
+
+.time-col {
+    border: 1px solid gainsboro;
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+
+.time {
+    word-break: break-all;
+    text-align: center;
+    margin:0;
+    color: #A9A9A9;
+}
+
+.active {
+    text-align: center;
+    font-weight: bold;
+    margin:0;
+    color:#f5bb1c;
+}
+
+.disactive {
+    text-align: center;
+    color: #A9A9A9;
+}
+
+
+.catch-copy {
+    font-weight: bold;
+}
+
+.desc {
+    color: #696969;
+}
+
+
+/* お気に入りボタンなど */
+.btn-container {
+    width: 100%;
+}
+
+.like-button {
+    width: 50%;
+    padding-top:16px;
+    padding-bottom: 16px;
+}
